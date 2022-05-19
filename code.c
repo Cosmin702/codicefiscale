@@ -1,0 +1,42 @@
+#include <stdio.h>
+#define max 50
+
+int main ()
+{
+    char nome[max], cognome[max], paese[max], provincia[max], codicefiscale[16], vocali[5]="aeiou";
+    int gg, mm, aa, i, x, y=0;
+     
+/*
+    printf("nome\n");
+    scanf("%s",& nome);*/
+    printf("cognome\n");
+    scanf("%s",& cognome);/*
+    printf("paese\n");
+    scanf("%s",& paese);
+    printf("provincia\n");
+    scanf("%s",& provincia);
+    printf("giorno\n");
+    scanf("%d",& gg);
+    printf("mese\n");
+    scanf("%d",& mm);
+    printf("anno\n");
+    scanf("%d",& aa);*/
+
+    for(i=0; i<max; i++);
+    {
+        if(cognome[i]!="a" && cognome[i]!="e" && cognome[i]!="i" && cognome[i]!="o" && cognome[i]!="u")
+        {
+            codicefiscale[y]=cognome[i];
+            y++;
+        }
+        
+        if (y==3);
+            {
+                i==max;
+            }
+    }
+
+printf("%s", codicefiscale);
+    
+    return 0;
+}
