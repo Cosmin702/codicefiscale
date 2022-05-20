@@ -4,12 +4,12 @@
 
 int main ()
 {
-    char nome[max], cognome[max], paese[max], provincia[max], codicefiscale[16];
-    int gg, mm, aa, i=0, x, y=0;
+    char aa[4], nome[max], cognome[max], paese[max], provincia[max], codicefiscale[16];
+    int gg, mm, i=0, x, y=0;
      
-/*
+
     printf("nome\n");
-    scanf("%s",& nome);*/
+    scanf("%s",& nome);
     printf("cognome\n");
     scanf("%s",& cognome);/*
     printf("paese\n");
@@ -17,16 +17,13 @@ int main ()
     printf("provincia\n");
     scanf("%s",& provincia);
     printf("giorno\n");
-    scanf("%d",& gg);
+    scanf("%d",& gg);*/
     printf("mese\n");
     scanf("%d",& mm);
     printf("anno\n");
-    scanf("%d",& aa);*/
+    scanf("%s",& aa);
 
-
-
-
-    for(i=0;i<19;i++)
+    for(i=0;i<max;i++)
     {
 
         if (cognome[i] != 'a' && cognome[i] != 'e' && cognome[i] != 'i' && cognome[i] != 'o' && cognome[i] !=  'u')
@@ -38,11 +35,38 @@ int main ()
 
         if (y == 3)
         {
-            i=19;
+            i=max;
         }
     }
     
+    for(i=0;i<max;i++)
+    {
+
+        if (nome[i] != 'a' && nome[i] != 'e' && nome[i] != 'i' && nome[i] != 'o' && nome[i] !=  'u')
+        {
+            
+            codicefiscale[y]=nome[i];
+            y++;
+        }
+
+        if (y == 7)
+        {
+            i=max;
+            codicefiscale[4]=codicefiscale[5];
+            codicefiscale[5]=codicefiscale[6];
+            codicefiscale[6]='\0';
+        }
+    }
+    
+    codicefiscale[6]=aa[2];
+    codicefiscale[7]=aa[3];
+
+
+
+
+    
     printf("%s\n",& codicefiscale);
+
     
     return 0;
 }
