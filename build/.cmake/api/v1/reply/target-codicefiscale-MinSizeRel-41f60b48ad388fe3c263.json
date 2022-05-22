@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Release/codicefiscale.exe"
+			"path" : "MinSizeRel/codicefiscale.exe"
 		},
 		{
-			"path" : "Release/codicefiscale.pdb"
+			"path" : "MinSizeRel/codicefiscale.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -38,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /O2 /Ob2 /DNDEBUG -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /O1 /Ob1 /DNDEBUG -MD"
 				},
 				{
 					"fragment" : "-std:c11"
@@ -71,11 +71,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /O2 /Ob2 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /O1 /Ob1 /DNDEBUG -MD",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:X86 /INCREMENTAL:NO /subsystem:console",
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
 				"role" : "flags"
 			},
 			{

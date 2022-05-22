@@ -5,7 +5,7 @@
 int main ()
 {
 // Gli anni, mesi e giorni gli abbiamo messi come caratteri per facilitarne la manipolazione
-    char aa[4], nome[max], cognome[max], paese[max], provincia[max], codicefiscale[10], gg[2], mf;
+    char aa[4], nome[max], cognome[max], paese[max], provincia[max], codicefiscale[11], gg[2], mf;
     int  mm, i, y=0;
 
     printf("Inserisci il tuo nome:\n");
@@ -17,14 +17,13 @@ int main ()
     printf("provincia\n");
     scanf("%s",& provincia);*/
     printf("Inserisci il tuo giorno di nascita:\n");
-    scanf("%s", gg);
+    scanf("%s",& gg);
     printf("Inserisci il tuo mese di nascita:\n");
     scanf("%s",& mm);
     printf("Inserisci il tuo anno di nascita:\n");
     scanf("%s",& aa);
     printf("Inserisci il tuo sesso (M o F):\n");
     scanf("%s",& mf);
-
 
 // Prime tre consonanti del cognome
     for(i=0;i<max;i++)  // Il ciclo seleziona una lettera per volta per controllare se é una vocale
