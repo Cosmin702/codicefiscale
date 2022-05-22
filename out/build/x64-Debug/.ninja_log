@@ -1,0 +1,24 @@
+# ninja log v5
+1	517	6749181319289947	CMakeFiles/codicefiscale.dir/code.c.obj	36c0ec113fc81273
+520	1511	6749181328776150	codicefiscale.exe	b461b4447b41bb1e
+1	152	6749183694135411	CMakeFiles/codicefiscale.dir/code.c.obj	36c0ec113fc81273
+153	698	6749183698237667	codicefiscale.exe	b461b4447b41bb1e
+0	173	6749188988736394	CMakeFiles/codicefiscale.dir/code.c.obj	36c0ec113fc81273
+174	668	6749188992486182	codicefiscale.exe	b461b4447b41bb1e
+1	164	6749189677073704	CMakeFiles/codicefiscale.dir/code.c.obj	36c0ec113fc81273
+165	524	6749189679884069	codicefiscale.exe	b461b4447b41bb1e
+0	185	6749191318009555	CMakeFiles/codicefiscale.dir/code.c.obj	36c0ec113fc81273
+186	818	6749191322479570	codicefiscale.exe	b461b4447b41bb1e
+0	743	6749195134462201	CMakeFiles/codicefiscale.dir/code.c.obj	36c0ec113fc81273
+744	1615	6749195141946665	codicefiscale.exe	b461b4447b41bb1e
+0	546	6749196877973847	CMakeFiles/codicefiscale.dir/code.c.obj	36c0ec113fc81273
+547	1649	6749196886184138	codicefiscale.exe	b461b4447b41bb1e
+1	149	6749208840726588	CMakeFiles/codicefiscale.dir/code.c.obj	36c0ec113fc81273
+150	603	6749208843886630	codicefiscale.exe	b461b4447b41bb1e
+2	774	6749210082275039	CMakeFiles/codicefiscale.dir/code.c.obj	36c0ec113fc81273
+775	2186	6749210093565115	codicefiscale.exe	b461b4447b41bb1e
+1	465	6749210692991452	CMakeFiles/codicefiscale.dir/code.c.obj	36c0ec113fc81273
+466	1481	6749210701631432	codicefiscale.exe	b461b4447b41bb1e
+0	71	0	clean	94eb5120419ed6fe
+1	473	6749211598519215	CMakeFiles/codicefiscale.dir/code.c.obj	36c0ec113fc81273
+474	2116	6749211612425807	codicefiscale.exe	b461b4447b41bb1e

@@ -1,0 +1,3 @@
+D:/Users/ameli/Desktop/Compiti/codicefiscale/build/CMakeFiles/codicefiscale.dir
+D:/Users/ameli/Desktop/Compiti/codicefiscale/build/CMakeFiles/ALL_BUILD.dir
+D:/Users/ameli/Desktop/Compiti/codicefiscale/build/CMakeFiles/ZERO_CHECK.dir
