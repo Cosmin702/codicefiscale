@@ -1,0 +1,3 @@
+"D:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\codicefiscale.dir/objects.a
+D:\MinGW\bin\ar.exe qc CMakeFiles\codicefiscale.dir/objects.a @CMakeFiles\codicefiscale.dir\objects1.rsp
+D:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\codicefiscale.dir/objects.a -Wl,--no-whole-archive -o codicefiscale.exe -Wl,--out-implib,libcodicefiscale.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\codicefiscale.dir\linklibs.rsp

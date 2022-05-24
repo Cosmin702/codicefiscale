@@ -1,29 +1,29 @@
 #include <stdio.h>
-#include <string.h>
 #define max 50
 
 int main ()
 {
 // Gli anni, mesi e giorni gli abbiamo messi come caratteri per facilitarne la manipolazione
-    char aa[4], nome[max], cognome[max], paese[max], provincia[max], codicefiscale[11], gg[2], mf;
-    int  mm, i, y=0;
+    char mm, aa[4], nome[max], cognome[max], comune[max], provincia[max], codicefiscale[16]="", gg[2], mf;
+    int  i, y=0;
 
-    printf("Inserisci il tuo nome:\n");
-    scanf("%s",& nome);
-    printf("Inserisci il tuo cognome:\n");
-    scanf("%s",& cognome);/*
-    printf("paese\n");
-    scanf("%s",& paese);
+    printf("Inserisci il tuo nome (Tutto maiuscolo):\n");
+    scanf("%s", nome);
+    printf("Inserisci il tuo cognome (Tutto maiuscolo):\n");
+    scanf("%s", cognome);/*
+    printf("comune\n");
+    scanf("%s",& comune);
     printf("provincia\n");
     scanf("%s",& provincia);*/
     printf("Inserisci il tuo giorno di nascita:\n");
-    scanf("%s",& gg);
+    scanf("%s", gg);
     printf("Inserisci il tuo mese di nascita:\n");
     scanf("%s",& mm);
     printf("Inserisci il tuo anno di nascita:\n");
-    scanf("%s",& aa);
-    printf("Inserisci il tuo sesso (M o F):\n");
+    scanf("%s", aa);
+    printf("Inserisci il tuo sesso (M o F Tutto maiuscolo):\n");
     scanf("%s",& mf);
+
 
 // Prime tre consonanti del cognome
     for(i=0;i<max;i++)  // Il ciclo seleziona una lettera per volta per controllare se é una vocale
@@ -73,7 +73,7 @@ int main ()
     {
         if (gg[0] == '0')
 
-            gg[0]='4';      // Non sommiamo direttamente perché la vaiarbile é un carattere.
+            gg[0]='4';      // Non sommiamo direttamente perché la variabile é un carattere.
 
         if (gg[0] == '1')
 
@@ -88,14 +88,12 @@ int main ()
             gg[0]='7';
     }
 
-// Inseriamo il giorno nella posizone correta del codice fiscale
+// Inseriamo il giorno nella posizione corretta del codice fiscale
     codicefiscale[9]=gg[0];
     codicefiscale[10]=gg[1];
 
-    printf("%s\n",& codicefiscale);
+    printf("%s\n", codicefiscale);
     
-
     return 0;
-
 
 }
